@@ -13,6 +13,9 @@
 version: ~> 1.0
 language: c
 os: linux
+arch:
+  - amd64
+  - ppc64le
 dist: xenial
 git:
   # whether to recursively clone submodules
